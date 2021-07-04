@@ -45,8 +45,8 @@ public class Pokedex {
         InputStream input = PokedexEntry.class.getClassLoader().getResourceAsStream(file);
         JsonReader reader = new JsonReader(new InputStreamReader(input));
         PokedexEntry[] entries = JsonUtil.gson.fromJson(reader, PokedexEntry[].class);
-        for(int i = 0; i<entries.length; i++) {
-            registerEntry(entries[i]);
+        for(PokedexEntry entry: entries) {
+            registerEntry(entry);
         }
     }
 }

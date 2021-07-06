@@ -35,6 +35,11 @@ public class DefaultTypes {
             }
             return Effectiveness.EFFECTIVE;
         }
+
+        @Override
+        public Effectiveness getEffectiveness(PokemonType type, PokemonType type2) {
+            return null;
+        }
     };
 
     public static PokemonType WATER = new PokemonType("water") {

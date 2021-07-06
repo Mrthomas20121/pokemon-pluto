@@ -1,4 +1,4 @@
-package mrthomas20121.pokemon_pluto.api.pokemon.pokedex;
+package mrthomas20121.pokemon_pluto.api.pokedex;
 
 import com.google.gson.stream.JsonReader;
 import mrthomas20121.pokemon_pluto.api.JsonUtil;

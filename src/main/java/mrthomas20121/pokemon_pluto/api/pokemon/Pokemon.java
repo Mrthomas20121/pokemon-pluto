@@ -1,6 +1,5 @@
 package mrthomas20121.pokemon_pluto.api.pokemon;
 
-import com.sun.istack.internal.Nullable;
 import mrthomas20121.pokemon_pluto.api.pokemon.type.PokemonType;
 
 public class Pokemon {
@@ -42,8 +41,7 @@ public class Pokemon {
     public PokemonType getFirstType() {
         return first_type;
     }
-
-    @Nullable
+    
     public PokemonType getSecondaryType() {
         return this.second_type;
     }

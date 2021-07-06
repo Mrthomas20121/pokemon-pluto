@@ -1,4 +1,4 @@
-package mrthomas20121.pokemon_pluto.api.pokemon.manager;
+package mrthomas20121.pokemon_pluto.api.manager;
 
 import mrthomas20121.pokemon_pluto.api.pokemon.move.*;
 import mrthomas20121.pokemon_pluto.api.pokemon.type.PokemonType;

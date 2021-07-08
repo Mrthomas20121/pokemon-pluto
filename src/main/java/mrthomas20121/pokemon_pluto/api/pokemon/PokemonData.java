@@ -6,7 +6,7 @@ import mrthomas20121.pokemon_pluto.api.item.Item;
  * PokemonData.java -
  * @author Mrthomas20121
  * This class contain the data of a pokemon.
- * 
+ *
  *
  * pokemon_name - This is the pokemon name.
  * starting_level - This is the level you found the pokemon at.

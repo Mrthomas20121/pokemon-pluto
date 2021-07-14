@@ -1,8 +1,9 @@
 package mrthomas20121.pokemon_pluto.api.pokemon.move;
 
+import mrthomas20121.pokemon_pluto.api.data.SerialData;
 import mrthomas20121.pokemon_pluto.api.pokemon.type.PokemonType;
 
-public abstract class Move {
+public abstract class Move implements SerialData {
 
     private final String name;
 
@@ -39,7 +40,7 @@ public abstract class Move {
         return false;
     }
 
-    public String getName() {
+    public String getRegistryName() {
         return name;
     }
 

@@ -1,5 +1,7 @@
 package mrthomas20121.pokemon_pluto.api.pokemon;
 
+import mrthomas20121.pokemon_pluto.api.data.Data;
+import mrthomas20121.pokemon_pluto.api.data.SerialData;
 import mrthomas20121.pokemon_pluto.api.item.Item;
 
 /**
@@ -18,9 +20,7 @@ import mrthomas20121.pokemon_pluto.api.item.Item;
  * xpBonuses - This is the XP Bonuses From outside source(Item and other stuff, e.g multi exp)
  * heldItem - The Item Held by the pokemon
  */
-public class PokemonData {
-
-    private String pokemon_name;
+public class PokemonData extends Data<Pokemon> implements SerialData {
 
     private int starting_level;
     private int level;
@@ -35,8 +35,8 @@ public class PokemonData {
 
     private Item heldItem;
 
-    public Pokemon getPokemon() {
-        return null;// Manager.getPokemonByName();
+    public PokemonData(Pokemon pokemon) {
+        super(pokemon);
     }
 
     public void setXPGain(boolean xpGain) {
@@ -65,5 +65,20 @@ public class PokemonData {
 
     public double getTotalxp() {
         return totalxp;
+    }
+
+    public void levelup() {
+        this.level++;
+    }
+
+    public void levelupRareCandy() {
+        this.levelup();
+        // reset xp on level up
+        this.totalxp = 0;
+    }
+
+    @Override
+    public String getRegistryName() {
+        return this.value.getRegistryName();
     }
 }

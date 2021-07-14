@@ -1,8 +1,9 @@
 package mrthomas20121.pokemon_pluto.api.pokemon;
 
+import mrthomas20121.pokemon_pluto.api.data.SerialData;
 import mrthomas20121.pokemon_pluto.api.pokemon.type.PokemonType;
 
-public class Pokemon {
+public class Pokemon implements SerialData {
 
     private final String name;
 
@@ -15,7 +16,7 @@ public class Pokemon {
         this.second_type = type2;
     }
 
-    public String getName() {
+    public String getRegistryName() {
         return name;
     }
 

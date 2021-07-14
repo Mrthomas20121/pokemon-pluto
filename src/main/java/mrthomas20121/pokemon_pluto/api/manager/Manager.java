@@ -1,87 +1,59 @@
 package mrthomas20121.pokemon_pluto.api.manager;
 
-import mrthomas20121.pokemon_pluto.api.pokemon.move.*;
-import mrthomas20121.pokemon_pluto.api.pokemon.type.PokemonType;
+import com.google.gson.JsonObject;
+import mrthomas20121.pokemon_pluto.api.data.SerialData;
+import mrthomas20121.pokemon_pluto.api.JsonUtil;
+import mrthomas20121.pokemon_pluto.api.data.Data;
 
 import java.util.LinkedList;
-import java.util.List;
-import java.util.stream.Collectors;
 
-public class Manager {
+public class Manager<T extends SerialData> extends Data<LinkedList<T>> {
 
-    private static List<PokemonType> types = new LinkedList<>();
-    private static List<Move> moves = new LinkedList<>();
+    private boolean isEnabled;
 
-    private static int maxCSMoves = 8;
-    private static int maxHMMoves = 100;
-
-    public static void setMaxCSMoves(int nb)  {
-        maxCSMoves = nb;
+    public Manager() {
+        super(new LinkedList<>());
     }
 
-    public static void setMaxHMMoves(int nb) {
-        maxHMMoves = nb;
+    public <D extends SerialData> Manager<D> requireManager(Class<D> dClass) {
+        return new Manager<>();
     }
 
-    public static void registerType(PokemonType type) {
-        types.add(type);
+    public boolean register(T element) {
+        return this.value.add(element);
     }
 
-    public static boolean registerMove(Move move) {
-        return moves.add(move);
+    public boolean isEmpty() {
+        return this.value.isEmpty();
     }
 
-    /**
-     * register a Non Obtainable move, return true if it was added successfully. return false if the move number is higher than the max possible
-     * @param move Non Obtainable move
-     * @return
-     */
-    public static boolean registerNonObtainableMove(NonObtainableMove move) {
-        if((move instanceof HMMove && move.getNumber() > maxHMMoves) || move instanceof CSMove && move.getNumber() > maxCSMoves) {
-            //todo log that the move exceed the HM/CS moves capacity
-            return false;
-        }
+    public boolean isEnabled() {
+        return isEnabled;
+    }
 
-        return registerMove(move);
+    public void setState(boolean enabled) {
+        isEnabled = enabled;
+    }
+
+    public void registerFromJson(String file, Class<T> tClass) {
+        register(JsonUtil.getResourceFromJson(file, tClass));
+    }
+
+    public T convertJsonTo(JsonObject object, Class<T> tClass) {
+        return JsonUtil.gson.fromJson(object, tClass);
     }
 
     /**
-     * Return all moves
-     * @return all moves
+     * Get an Element by name.
+     * Override this if you wish to return a default value if the name doesn't exists. by default it return null.
+     * @param name name
+     * @return The Element with said name.
      */
-    public static List<Move> getMoves() {
-        return moves;
+    public T getElementByName(String name) {
+        return this.value.stream().filter(t -> t.getRegistryName().equals(name)).findFirst().orElse(null);
     }
 
-    public static List<PokemonType> getTypes() {
-        return types;
-    }
-
-    public static List<Move> getObtainableMove() {
-        return moves.stream().filter(move -> !(move instanceof NonObtainableMove)).collect(Collectors.toList());
-    }
-
-    public static List<Move> getCSMoves() {
-        return moves.stream().filter(move -> move instanceof CSMove).collect(Collectors.toList());
-    }
-
-    public static List<Move> getHMMoves() {
-        return moves.stream().filter(move -> move instanceof HMMove).collect(Collectors.toList());
-    }
-
-    public static List<Move> getPhysicalMoves() {
-        return moves.stream().filter(move -> move.getCategory().equals(Category.PHYSICAL)).collect(Collectors.toList());
-    }
-
-    public static List<Move> getSpecialMoves() {
-        return moves.stream().filter(move -> move.getCategory().equals(Category.SPECIAL)).collect(Collectors.toList());
-    }
-
-    public static List<Move> getStatusMoves() {
-        return moves.stream().filter(move -> move.getCategory().equals(Category.STATUS)).collect(Collectors.toList());
-    }
-
-    public void init() {
-
+    public T getElement(int index) {
+        return this.value.get(index);
     }
 }

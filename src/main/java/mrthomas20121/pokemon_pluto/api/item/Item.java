@@ -1,19 +1,35 @@
 package mrthomas20121.pokemon_pluto.api.item;
 
+import mrthomas20121.pokemon_pluto.api.data.SerialData;
 import mrthomas20121.pokemon_pluto.api.pokemon.PokemonData;
 
 import java.util.List;
 
-public abstract class Item {
+public abstract class Item implements SerialData {
 
     private final String name;
 
-    public Item(String name) {
-        this.name = name;
+    private ItemCategory category;
+
+    public Item(String name, String itemCategory) {
+        this(name, ItemCategory.valueOf(itemCategory.toUpperCase()));
     }
 
-    public String getName() {
+    public Item(String name, ItemCategory category) {
+        this.name = name;
+        this.category = category;
+    }
+
+    public Item(String name) {
+        this(name, ItemCategory.ITEM);
+    }
+
+    public String getRegistryName() {
         return name;
+    }
+
+    public ItemCategory getCategory() {
+        return category;
     }
 
     /**
@@ -51,4 +67,13 @@ public abstract class Item {
      * @param pokemon The affected pokemon
      */
     public abstract void onTurnEnd(PokemonData pokemon);
+
+    public enum ItemCategory {
+        ITEM,
+        STATUS_AND_HEAL,
+        POKEBALL,
+        TMS_AND_HMS,
+        BERRIES,
+        KEY
+    }
 }

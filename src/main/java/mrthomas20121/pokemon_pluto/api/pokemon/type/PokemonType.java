@@ -1,13 +1,14 @@
 package mrthomas20121.pokemon_pluto.api.pokemon.type;
 
+import mrthomas20121.pokemon_pluto.api.data.SerialData;
 import mrthomas20121.pokemon_pluto.api.pokemon.Effectiveness;
-import mrthomas20121.pokemon_pluto.api.manager.Manager;
+import mrthomas20121.pokemon_pluto.api.manager.TempManager;
 
 /**
  * PokemonType.java - Mrthomas20121 2021
  * Implementation of a Pokemon Type.
  */
-public abstract class PokemonType {
+public abstract class PokemonType implements SerialData {
 
     private final String name;
 
@@ -15,10 +16,10 @@ public abstract class PokemonType {
         this.name = name;
 
         // register the type
-        Manager.registerType(this);
+        TempManager.registerType(this);
     }
 
-    public String getName() {
+    public String getRegistryName() {
         return name;
     }
 

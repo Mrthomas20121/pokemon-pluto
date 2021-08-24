@@ -1,0 +1,4296 @@
+{
+  "data": {
+    "moves": [
+      {
+        "accuracy": 100,
+        "name": "pound",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 40,
+        "pp": 35,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "karate-chop",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 1,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 50,
+        "pp": 25,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "fighting"
+        }
+      },
+      {
+        "accuracy": 85,
+        "name": "double-slap",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": 5,
+            "max_turns": null,
+            "min_hits": 2,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 15,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 85,
+        "name": "comet-punch",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": 5,
+            "max_turns": null,
+            "min_hits": 2,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 18,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 85,
+        "name": "mega-punch",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 80,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "pay-day",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 40,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "fire-punch",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 75,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "fire"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "ice-punch",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 75,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "ice"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "thunder-punch",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 75,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "electric"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "scratch",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 40,
+        "pp": 35,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "vice-grip",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 55,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 30,
+        "name": "guillotine",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 5,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "razor-wind",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 1,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 80,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "swords-dance",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 95,
+        "name": "cut",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 50,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "gust",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 40,
+        "pp": 35,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "flying"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "wing-attack",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 60,
+        "pp": 35,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "flying"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "whirlwind",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": -6,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 95,
+        "name": "fly",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 90,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "flying"
+        }
+      },
+      {
+        "accuracy": 85,
+        "name": "bind",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 6,
+            "min_hits": null,
+            "min_turns": 5,
+            "stat_chance": 0
+          }
+        ],
+        "power": 15,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 75,
+        "name": "slam",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 80,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "vine-whip",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 45,
+        "pp": 25,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "grass"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "stomp",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 30,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 65,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "double-kick",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": 2,
+            "max_turns": null,
+            "min_hits": 2,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 30,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "fighting"
+        }
+      },
+      {
+        "accuracy": 75,
+        "name": "mega-kick",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 120,
+        "pp": 5,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 95,
+        "name": "jump-kick",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 100,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "fighting"
+        }
+      },
+      {
+        "accuracy": 85,
+        "name": "rolling-kick",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 30,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 60,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "fighting"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "sand-attack",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "ground"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "headbutt",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 30,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 70,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "horn-attack",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 65,
+        "pp": 25,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 85,
+        "name": "fury-attack",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": 5,
+            "max_turns": null,
+            "min_hits": 2,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 15,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 30,
+        "name": "horn-drill",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 5,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "tackle",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 40,
+        "pp": 35,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "body-slam",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 85,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 90,
+        "name": "wrap",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 6,
+            "min_hits": null,
+            "min_turns": 5,
+            "stat_chance": 0
+          }
+        ],
+        "power": 15,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 85,
+        "name": "take-down",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": -25,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 90,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "thrash",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 120,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "double-edge",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": -33,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 120,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "tail-whip",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "poison-sting",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 15,
+        "pp": 35,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "poison"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "twineedle",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": 2,
+            "max_turns": null,
+            "min_hits": 2,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 25,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "bug"
+        }
+      },
+      {
+        "accuracy": 95,
+        "name": "pin-missile",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": 5,
+            "max_turns": null,
+            "min_hits": 2,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 25,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "bug"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "leer",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 100
+          }
+        ],
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "bite",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 30,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 60,
+        "pp": 25,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "dark"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "growl",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "roar",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": -6,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 55,
+        "name": "sing",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 4,
+            "min_hits": null,
+            "min_turns": 2,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 55,
+        "name": "supersonic",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 5,
+            "min_hits": null,
+            "min_turns": 2,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 90,
+        "name": "sonic-boom",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "disable",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 4,
+            "min_hits": null,
+            "min_turns": 4,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "acid",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 10
+          }
+        ],
+        "power": 40,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "poison"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "ember",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 40,
+        "pp": 25,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "fire"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "flamethrower",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 90,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "fire"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "mist",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "ice"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "water-gun",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 40,
+        "pp": 25,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "water"
+        }
+      },
+      {
+        "accuracy": 80,
+        "name": "hydro-pump",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 110,
+        "pp": 5,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "water"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "surf",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 90,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "water"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "ice-beam",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 90,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "ice"
+        }
+      },
+      {
+        "accuracy": 70,
+        "name": "blizzard",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 110,
+        "pp": 5,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "ice"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "psybeam",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 5,
+            "min_hits": null,
+            "min_turns": 2,
+            "stat_chance": 0
+          }
+        ],
+        "power": 65,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "psychic"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "bubble-beam",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 10
+          }
+        ],
+        "power": 65,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "water"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "aurora-beam",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 10
+          }
+        ],
+        "power": 65,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "ice"
+        }
+      },
+      {
+        "accuracy": 90,
+        "name": "hyper-beam",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 150,
+        "pp": 5,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "peck",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 35,
+        "pp": 35,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "flying"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "drill-peck",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 80,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "flying"
+        }
+      },
+      {
+        "accuracy": 80,
+        "name": "submission",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": -25,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 80,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "fighting"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "low-kick",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "fighting"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "counter",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": -5,
+        "pokemon_v2_type": {
+          "name": "fighting"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "seismic-toss",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "fighting"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "strength",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 80,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "absorb",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 50,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 20,
+        "pp": 25,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "grass"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "mega-drain",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 50,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 40,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "grass"
+        }
+      },
+      {
+        "accuracy": 90,
+        "name": "leech-seed",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "grass"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "growth",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 95,
+        "name": "razor-leaf",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 1,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 55,
+        "pp": 25,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "grass"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "solar-beam",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 120,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "grass"
+        }
+      },
+      {
+        "accuracy": 75,
+        "name": "poison-powder",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 35,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "poison"
+        }
+      },
+      {
+        "accuracy": 75,
+        "name": "stun-spore",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "grass"
+        }
+      },
+      {
+        "accuracy": 75,
+        "name": "sleep-powder",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 4,
+            "min_hits": null,
+            "min_turns": 2,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "grass"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "petal-dance",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 120,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "grass"
+        }
+      },
+      {
+        "accuracy": 95,
+        "name": "string-shot",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "bug"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "dragon-rage",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "dragon"
+        }
+      },
+      {
+        "accuracy": 85,
+        "name": "fire-spin",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 6,
+            "min_hits": null,
+            "min_turns": 5,
+            "stat_chance": 0
+          }
+        ],
+        "power": 35,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "fire"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "thunder-shock",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 40,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "electric"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "thunderbolt",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 90,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "electric"
+        }
+      },
+      {
+        "accuracy": 90,
+        "name": "thunder-wave",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "electric"
+        }
+      },
+      {
+        "accuracy": 70,
+        "name": "thunder",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 110,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "electric"
+        }
+      },
+      {
+        "accuracy": 90,
+        "name": "rock-throw",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 50,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "rock"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "earthquake",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 100,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "ground"
+        }
+      },
+      {
+        "accuracy": 30,
+        "name": "fissure",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 5,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "ground"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "dig",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 80,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "ground"
+        }
+      },
+      {
+        "accuracy": 90,
+        "name": "toxic",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 15,
+            "min_hits": null,
+            "min_turns": 15,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "poison"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "confusion",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 5,
+            "min_hits": null,
+            "min_turns": 2,
+            "stat_chance": 0
+          }
+        ],
+        "power": 50,
+        "pp": 25,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "psychic"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "psychic",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 10
+          }
+        ],
+        "power": 90,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "psychic"
+        }
+      },
+      {
+        "accuracy": 60,
+        "name": "hypnosis",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 4,
+            "min_hits": null,
+            "min_turns": 2,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "psychic"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "meditate",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "psychic"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "agility",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "psychic"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "quick-attack",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 40,
+        "pp": 30,
+        "priority": 1,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "rage",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 20,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "teleport",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "psychic"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "night-shade",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "ghost"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "mimic",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 85,
+        "name": "screech",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "double-team",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "recover",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 50,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "harden",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "minimize",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "smokescreen",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "confuse-ray",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 5,
+            "min_hits": null,
+            "min_turns": 2,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "ghost"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "withdraw",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "water"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "defense-curl",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "barrier",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "psychic"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "light-screen",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "psychic"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "haze",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "ice"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "reflect",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "psychic"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "focus-energy",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "bide",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 10,
+        "priority": 1,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "metronome",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "mirror-move",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "flying"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "self-destruct",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 200,
+        "pp": 5,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 75,
+        "name": "egg-bomb",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 100,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "lick",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 30,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "ghost"
+        }
+      },
+      {
+        "accuracy": 70,
+        "name": "smog",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 30,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "poison"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "sludge",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 65,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "poison"
+        }
+      },
+      {
+        "accuracy": 85,
+        "name": "bone-club",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 10,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 65,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "ground"
+        }
+      },
+      {
+        "accuracy": 85,
+        "name": "fire-blast",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 110,
+        "pp": 5,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "fire"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "waterfall",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 20,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 80,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "water"
+        }
+      },
+      {
+        "accuracy": 85,
+        "name": "clamp",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 6,
+            "min_hits": null,
+            "min_turns": 5,
+            "stat_chance": 0
+          }
+        ],
+        "power": 35,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "water"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "swift",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 60,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "skull-bash",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 130,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "spike-cannon",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": 5,
+            "max_turns": null,
+            "min_hits": 2,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 20,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "constrict",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 10
+          }
+        ],
+        "power": 10,
+        "pp": 35,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "amnesia",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "psychic"
+        }
+      },
+      {
+        "accuracy": 80,
+        "name": "kinesis",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "psychic"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "soft-boiled",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 50,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 90,
+        "name": "high-jump-kick",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 130,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "fighting"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "glare",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "dream-eater",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 50,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 100,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "psychic"
+        }
+      },
+      {
+        "accuracy": 90,
+        "name": "poison-gas",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "poison"
+        }
+      },
+      {
+        "accuracy": 85,
+        "name": "barrage",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": 5,
+            "max_turns": null,
+            "min_hits": 2,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 15,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "leech-life",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 50,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 80,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "bug"
+        }
+      },
+      {
+        "accuracy": 75,
+        "name": "lovely-kiss",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 4,
+            "min_hits": null,
+            "min_turns": 2,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 90,
+        "name": "sky-attack",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 1,
+            "drain": 0,
+            "flinch_chance": 30,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 140,
+        "pp": 5,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "flying"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "transform",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "bubble",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 10
+          }
+        ],
+        "power": 40,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "water"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "dizzy-punch",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 5,
+            "min_hits": null,
+            "min_turns": 2,
+            "stat_chance": 0
+          }
+        ],
+        "power": 70,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "spore",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": 4,
+            "min_hits": null,
+            "min_turns": 2,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "grass"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "flash",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "psywave",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "psychic"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "splash",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 40,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "acid-armor",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "poison"
+        }
+      },
+      {
+        "accuracy": 90,
+        "name": "crabhammer",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 1,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 100,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "water"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "explosion",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 250,
+        "pp": 5,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 80,
+        "name": "fury-swipes",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": 5,
+            "max_turns": null,
+            "min_hits": 2,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 18,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 90,
+        "name": "bonemerang",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": 2,
+            "max_turns": null,
+            "min_hits": 2,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 50,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "ground"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "rest",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "psychic"
+        }
+      },
+      {
+        "accuracy": 90,
+        "name": "rock-slide",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 30,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 75,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "rock"
+        }
+      },
+      {
+        "accuracy": 90,
+        "name": "hyper-fang",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 10,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 80,
+        "pp": 15,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "sharpen",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "conversion",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 30,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "tri-attack",
+        "pokemon_v2_movedamageclass": {
+          "name": "special"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 80,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 90,
+        "name": "super-fang",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": 100,
+        "name": "slash",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 1,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 70,
+        "pp": 20,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "substitute",
+        "pokemon_v2_movedamageclass": {
+          "name": "status"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": null,
+        "pp": 10,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      },
+      {
+        "accuracy": null,
+        "name": "struggle",
+        "pokemon_v2_movedamageclass": {
+          "name": "physical"
+        },
+        "pokemon_v2_movemeta": [
+          {
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": -25,
+            "max_hits": null,
+            "max_turns": null,
+            "min_hits": null,
+            "min_turns": null,
+            "stat_chance": 0
+          }
+        ],
+        "power": 50,
+        "pp": 1,
+        "priority": 0,
+        "pokemon_v2_type": {
+          "name": "normal"
+        }
+      }
+    ]
+  }
+}

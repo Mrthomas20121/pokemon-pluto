@@ -1,11 +1,13 @@
 package mrthomas20121.pokemon_pluto.api.pokemon.move;
 
-import mrthomas20121.pokemon_pluto.api.data.SerialData;
+import mrthomas20121.pokemon_pluto.api.helper.GameLocation;
+import mrthomas20121.pokemon_pluto.api.helper.GameTranslation;
+import mrthomas20121.pokemon_pluto.api.handler.IHandlerEntry;
 import mrthomas20121.pokemon_pluto.api.pokemon.type.PokemonType;
 
-public abstract class Move implements SerialData {
+public abstract class Move implements IHandlerEntry {
 
-    private final String name;
+    private final GameLocation name;
 
     protected int pp;
     protected int max_pp;
@@ -13,7 +15,7 @@ public abstract class Move implements SerialData {
     protected PokemonType type;
 
     public Move(final String name, int pp, int power, PokemonType type) {
-        this.name = name;
+        this.name = new GameLocation(name);
         this.pp = pp;
         this.max_pp = pp;
         this.power = power;
@@ -40,8 +42,13 @@ public abstract class Move implements SerialData {
         return false;
     }
 
-    public String getRegistryName() {
+    public GameLocation getRegistryName() {
         return name;
+    }
+
+    @Override
+    public GameTranslation getTranslationKey() {
+        return new GameTranslation(String.format("move.%s", this.name.getPath()));
     }
 
     public int getMaxPP() {
@@ -56,7 +63,9 @@ public abstract class Move implements SerialData {
         return power;
     }
 
-    public abstract PokemonType getType();
+    public PokemonType getType() {
+        return this.type;
+    }
 
     public abstract Category getCategory();
 }

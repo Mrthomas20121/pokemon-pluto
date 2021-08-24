@@ -1,7 +1,9 @@
 [
     {
         "name": "bug",
-        "":""
+        "effectiveness":{
+			"bug":"NOT_VERY_EFFECTIVE"
+		}
     },
     {
         "name": "dark"

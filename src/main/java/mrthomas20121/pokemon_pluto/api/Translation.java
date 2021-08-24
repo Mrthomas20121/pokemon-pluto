@@ -2,6 +2,7 @@ package mrthomas20121.pokemon_pluto.api;
 
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
+import mrthomas20121.pokemon_pluto.api.json.JsonUtil;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;

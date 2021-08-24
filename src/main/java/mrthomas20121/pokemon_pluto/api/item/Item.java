@@ -1,30 +1,30 @@
 package mrthomas20121.pokemon_pluto.api.item;
 
-import mrthomas20121.pokemon_pluto.api.data.SerialData;
-import mrthomas20121.pokemon_pluto.api.pokemon.PokemonData;
+import mrthomas20121.pokemon_pluto.api.helper.GameTranslation;
+import mrthomas20121.pokemon_pluto.api.item.effect.ItemEffect;
+import mrthomas20121.pokemon_pluto.api.handler.IHandlerEntry;
+import mrthomas20121.pokemon_pluto.api.helper.GameLocation;
 
-import java.util.List;
+public class Item implements IHandlerEntry {
 
-public abstract class Item implements SerialData {
+    private final GameLocation name;
+    private final ItemCategory category;
+    private ItemEffect effect;
 
-    private final String name;
-
-    private ItemCategory category;
-
-    public Item(String name, String itemCategory) {
+    public Item(GameLocation name, String itemCategory) {
         this(name, ItemCategory.valueOf(itemCategory.toUpperCase()));
     }
 
-    public Item(String name, ItemCategory category) {
+    public Item(GameLocation name, ItemCategory category) {
         this.name = name;
         this.category = category;
     }
 
-    public Item(String name) {
+    public Item(GameLocation name) {
         this(name, ItemCategory.ITEM);
     }
 
-    public String getRegistryName() {
+    public GameLocation getRegistryName() {
         return name;
     }
 
@@ -32,41 +32,18 @@ public abstract class Item implements SerialData {
         return category;
     }
 
-    /**
-     * This get called when you use a item on a pokemon(inside and outside a battle)
-     * @param pokemon The affected pokemon.
-     */
-    public abstract void onPokemonUse(PokemonData pokemon);
+    @Override
+    public GameTranslation getTranslationKey() {
+        return new GameTranslation(String.format("item.%s", this.name.getPath()));
+    }
 
-    /**
-     * This get called when you use an item before
-     * @param pokemonList The list of pokemon in your inventory.
-     */
-    public abstract void onUse(List<PokemonData> pokemonList /* todo let them see the current open inventory*/);
+    public void setEffect(ItemEffect effect) {
+        this.effect = effect;
+    }
 
-    /**
-     * This get called right after the pokemon has taken damage
-     * @param pokemon The affected pokemon.
-     */
-    public abstract void afterDamage(PokemonData pokemon);
-
-    /**
-     * This get called right after the pokemon is healed.
-     * @param pokemon The affected pokemon
-     */
-    public abstract void afterHeal(PokemonData pokemon);
-
-    /**
-     * This get called when a character turn start.
-     * @param pokemon The affected pokemon
-     */
-    public abstract void onTurnStart(PokemonData pokemon);
-
-    /**
-     * This get called when a character turn end. Useful for implementing stuff like Leftover
-     * @param pokemon The affected pokemon
-     */
-    public abstract void onTurnEnd(PokemonData pokemon);
+    public ItemEffect getEffect() {
+        return effect;
+    }
 
     public enum ItemCategory {
         ITEM,

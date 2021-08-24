@@ -1,7 +1,9 @@
 package mrthomas20121.pokemon_pluto.api.pokemon;
 
-import mrthomas20121.pokemon_pluto.api.data.Data;
-import mrthomas20121.pokemon_pluto.api.data.SerialData;
+import mrthomas20121.pokemon_pluto.api.handler.GameManager;
+import mrthomas20121.pokemon_pluto.api.helper.GameLocation;
+import mrthomas20121.pokemon_pluto.api.helper.GameTranslation;
+import mrthomas20121.pokemon_pluto.api.handler.IHandlerEntry;
 import mrthomas20121.pokemon_pluto.api.item.Item;
 
 /**
@@ -20,8 +22,9 @@ import mrthomas20121.pokemon_pluto.api.item.Item;
  * xpBonuses - This is the XP Bonuses From outside source(Item and other stuff, e.g multi exp)
  * heldItem - The Item Held by the pokemon
  */
-public class PokemonData extends Data<Pokemon> implements SerialData {
+public class PokemonData implements IHandlerEntry {
 
+    private Pokemon pokemon;
     private int starting_level;
     private int level;
     private double totalxp;
@@ -36,7 +39,11 @@ public class PokemonData extends Data<Pokemon> implements SerialData {
     private Item heldItem;
 
     public PokemonData(Pokemon pokemon) {
-        super(pokemon);
+        this.pokemon = pokemon;
+    }
+
+    public Pokemon get() {
+        return pokemon;
     }
 
     public void setXPGain(boolean xpGain) {
@@ -71,6 +78,13 @@ public class PokemonData extends Data<Pokemon> implements SerialData {
         this.level++;
     }
 
+    public void evolve() {
+        if(this.pokemon.canEvolve()) {
+            EvolutionTree evolutionTree = this.pokemon.getEvolutionTree();
+            this.pokemon = GameManager.pokemonAbstractHandler.getElementByName(new GameLocation(evolutionTree.getEvolution2()));
+        }
+    }
+
     public void levelupRareCandy() {
         this.levelup();
         // reset xp on level up
@@ -78,7 +92,12 @@ public class PokemonData extends Data<Pokemon> implements SerialData {
     }
 
     @Override
-    public String getRegistryName() {
-        return this.value.getRegistryName();
+    public GameLocation getRegistryName() {
+        return this.pokemon.getRegistryName();
+    }
+
+    @Override
+    public GameTranslation getTranslationKey() {
+        return this.pokemon.getTranslationKey();
     }
 }

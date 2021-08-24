@@ -1,8 +1,7 @@
-package mrthomas20121.pokemon_pluto.api;
+package mrthomas20121.pokemon_pluto.api.json;
 
 import com.google.gson.*;
 import com.google.gson.stream.JsonReader;
-import mrthomas20121.pokemon_pluto.api.manager.Manager;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -23,9 +22,5 @@ public class JsonUtil {
         InputStream input = JsonUtil.class.getClassLoader().getResourceAsStream(file);
         JsonReader reader = new JsonReader(new InputStreamReader(input));
         return gson.fromJson(reader, tClass);
-    }
-
-    public static JsonObject getObjectFromJson(String file) {
-        return getResourceFromJson(file, JsonObject.class);
     }
 }

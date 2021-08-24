@@ -3,14 +3,19 @@ package mrthomas20121.pokemon_pluto.api.pokemon.move;
 import mrthomas20121.pokemon_pluto.api.helper.GameTranslation;
 import mrthomas20121.pokemon_pluto.api.pokemon.type.PokemonType;
 
-public class PhysicalMove extends Move {
+public class StatusMove extends Move {
 
-    public PhysicalMove(String name, int pp, int power, PokemonType type) {
-        super(name, pp, power, type);
+    public StatusMove(String name, PokemonType type) {
+        super(name, 0, 0, type);
+    }
+
+    @Override
+    public PokemonType getType() {
+        return this.type;
     }
 
     @Override
     public Category getCategory() {
-        return Category.PHYSICAL;
+        return Category.STATUS;
     }
 }

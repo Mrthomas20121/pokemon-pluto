@@ -1,6 +1,5 @@
 package mrthomas20121.pokemon_pluto.api.pokemon.ability;
 
-import mrthomas20121.pokemon_pluto.api.event.Event;
 import mrthomas20121.pokemon_pluto.api.helper.GameLocation;
 import mrthomas20121.pokemon_pluto.api.helper.GameTranslation;
 import mrthomas20121.pokemon_pluto.api.handler.IHandlerEntry;
@@ -26,11 +25,4 @@ public abstract class Ability implements IHandlerEntry {
     public GameLocation getRegistryName() {
         return registryName;
     }
-
-    public abstract <T extends Event> void trigger(T event);
-
-    /**
-     * Check whether the passed event can trigger this ability or not
-     */
-    public abstract <T extends Event> boolean triggerOnEvent(T event);
 }

@@ -8,6 +8,6 @@ public class PokemonTypeSerializer implements JsonSerializer<PokemonType> {
     @Override
     public PokemonType deserialize(JsonObject jsonObject) {
         String type = jsonObject.get("name").getAsString();
-        return new PokemonType(type, true);
+        return new PokemonType(type, false);
     }
 }

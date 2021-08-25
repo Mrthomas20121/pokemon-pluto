@@ -1,6 +1,5 @@
 package mrthomas20121.pokemon_pluto.api.pokedex;
 
-import mrthomas20121.pokemon_pluto.api.Translation;
 import mrthomas20121.pokemon_pluto.api.helper.GameLocation;
 import mrthomas20121.pokemon_pluto.api.helper.GameTranslation;
 import mrthomas20121.pokemon_pluto.api.handler.IHandlerEntry;
@@ -37,15 +36,5 @@ public class PokedexEntry implements IPokedex, IHandlerEntry {
     @Override
     public String getDescription() {
         return description;
-    }
-
-    @Override
-    public String getTranslatedDescription() {
-        return Translation.translate(String.format("pokedex.%s.description", this.name));
-    }
-
-    @Override
-    public String getTranslatedName() {
-        return Translation.translate(String.format("pokedex.%s.name", this.name));
     }
 }

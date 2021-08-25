@@ -7,7 +7,7 @@ import java.util.List;
 public class MoveHandler extends AbstractHandler<Move> {
 
     public MoveHandler() {
-        super("move");
+        super("pluto:move");
     }
 
     public List<Move> getObtainableMove() {

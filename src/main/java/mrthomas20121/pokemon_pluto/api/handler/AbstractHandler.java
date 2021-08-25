@@ -1,7 +1,9 @@
 package mrthomas20121.pokemon_pluto.api.handler;
 
+import com.google.common.flogger.StackSize;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
+import mrthomas20121.pokemon_pluto.PokemonPluto;
 import mrthomas20121.pokemon_pluto.api.json.JsonSerializer;
 import mrthomas20121.pokemon_pluto.api.json.JsonUtil;
 import mrthomas20121.pokemon_pluto.api.helper.GameLocation;
@@ -33,8 +35,7 @@ public class AbstractHandler<T extends IHandlerEntry> {
 
     public boolean register(T element) {
         if(locations.contains(element.getRegistryName())) {
-            IllegalArgumentException exception = new IllegalArgumentException(String.format("Cannot register %s because an element with the same registry name was registered before", element.getRegistryName().toString()));
-            // todo log the exception instead of throwing it
+            PokemonPluto.getLogger().atWarning().withStackTrace(StackSize.LARGE).log("Cannot register %s because an element with the same registry name was registered before", element.getRegistryName().toString());
             return false;
         }
 

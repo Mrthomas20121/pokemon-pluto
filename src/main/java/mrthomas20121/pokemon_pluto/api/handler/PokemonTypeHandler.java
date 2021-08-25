@@ -5,6 +5,6 @@ import mrthomas20121.pokemon_pluto.api.pokemon.type.*;
 public class PokemonTypeHandler extends AbstractHandler<PokemonType> {
 
     public PokemonTypeHandler() {
-        super("pokemon_type", new PokemonTypeSerializer());
+        super("pluto:pokemon_type", new PokemonTypeSerializer());
     }
 }

@@ -33,4 +33,25 @@ public class MoveSerializer implements JsonSerializer<Move> {
             }
         };
     }
+
+    @Override
+    public JsonObject serialize(Move obj) {
+        JsonObject object = new JsonObject();
+        object.addProperty("type", getType(obj));
+        return object;
+    }
+
+    private String getType(Move obj) {
+        String str = "";
+        if(obj instanceof SpecialMove) {
+            str = "special";
+        }
+        else if(obj instanceof PhysicalMove) {
+            str = "physical";
+        }
+        else if(obj instanceof StatusMove) {
+            str = "status";
+        }
+        return str;
+    }
 }

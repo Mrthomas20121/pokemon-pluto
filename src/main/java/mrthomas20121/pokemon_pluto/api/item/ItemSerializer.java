@@ -20,4 +20,12 @@ public class ItemSerializer implements JsonSerializer<Item> {
     public Item deserialize(JsonObject jsonObject) {
         return new Item(new GameLocation(jsonObject.get("name").getAsString()), jsonObject.get("category").getAsString().toUpperCase());
     }
+
+    @Override
+    public JsonObject serialize(Item obj) {
+        JsonObject object = new JsonObject();
+        object.addProperty("name", obj.getRegistryName().toString());
+        object.addProperty("category", obj.getCategory().name().toLowerCase());
+        return object;
+    }
 }

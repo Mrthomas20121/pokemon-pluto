@@ -65,7 +65,6 @@ public class AbstractHandler<T extends IHandlerEntry> {
 
     /**
      * Get an Element by name.
-     * Override this if you wish to return a default value if the name doesn't exists. by default it return null.
      * @param name name
      * @return The Element with said name.
      */

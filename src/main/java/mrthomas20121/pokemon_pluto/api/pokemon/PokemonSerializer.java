@@ -20,4 +20,13 @@ public class PokemonSerializer implements JsonSerializer<Pokemon> {
         }
         return new Pokemon(new GameLocation(pokemon_name), type1, type2);
     }
+
+    @Override
+    public JsonObject serialize(Pokemon obj) {
+        JsonObject object = new JsonObject();
+        object.addProperty("name", obj.getRegistryName().toString());
+        object.addProperty("type1", obj.getFirstType().getRegistryName().toString());
+        object.addProperty("type2", obj.hasTwoTypes() ? obj.getSecondaryType().getRegistryName().toString() : "");
+        return object;
+    }
 }

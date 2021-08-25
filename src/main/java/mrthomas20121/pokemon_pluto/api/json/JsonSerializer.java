@@ -13,4 +13,8 @@ public interface JsonSerializer<T> {
         jsonArray.forEach(element -> list.add(deserialize(element.getAsJsonObject())));
         return list;
     }
+
+    default JsonObject serialize(T obj) {
+        return null;
+    }
 }

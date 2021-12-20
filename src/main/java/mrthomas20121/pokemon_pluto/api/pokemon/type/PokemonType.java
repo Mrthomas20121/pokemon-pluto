@@ -14,7 +14,7 @@ public class PokemonType implements IHandlerEntry {
     private final GameLocation name;
 
     public PokemonType(String name) {
-        this(name, true);
+        this(name, false);
     }
 
     public PokemonType(String name, boolean shouldRegisterOnCreation) {

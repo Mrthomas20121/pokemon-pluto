@@ -4,6 +4,7 @@ import mrthomas20121.pokemon_pluto.api.helper.GameTranslation;
 import mrthomas20121.pokemon_pluto.api.item.effect.ItemEffect;
 import mrthomas20121.pokemon_pluto.api.handler.IHandlerEntry;
 import mrthomas20121.pokemon_pluto.api.helper.GameLocation;
+import mrthomas20121.pokemon_pluto.api.json.JsonSerializer;
 
 public class Item implements IHandlerEntry {
 

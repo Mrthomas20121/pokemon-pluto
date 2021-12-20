@@ -1,6 +1,9 @@
 package mrthomas20121.pokemon_pluto.api.pokedex;
 
+import com.google.common.flogger.StackSize;
 import com.google.gson.stream.JsonReader;
+import mrthomas20121.pokemon_pluto.PokemonPluto;
+import mrthomas20121.pokemon_pluto.api.helper.GameLocation;
 import mrthomas20121.pokemon_pluto.api.json.JsonUtil;
 
 import java.io.InputStream;
@@ -10,43 +13,24 @@ import java.util.List;
 
 public class Pokedex {
 
-    private static List<PokedexEntry> pokedex = new LinkedList<>();
+    private static final List<PokedexEntry> internalPokedex = new LinkedList<>();
+    private static final List<GameLocation> locations = new LinkedList<>();
 
     public static PokedexEntry getEntryByName(String name) {
-        return pokedex.stream().filter(pokedexEntry -> pokedexEntry != null && pokedexEntry.getName().equals(name)).findFirst().get();
+        return internalPokedex.stream().filter(pokedexEntry -> pokedexEntry != null && pokedexEntry.getRegistryName().toString().equals(name)).findFirst().orElse(null);
     }
 
     /**
-     * Register a pokedex entry to the pokedex.
-     * @param pokedexEntry the pokedex entry
+     * Register a Pokédex entry to the Pokédex.
+     * @param pokedexEntry the Pokédex entry
      */
     public static void registerEntry(PokedexEntry pokedexEntry) {
-        if(!pokedex.contains(pokedexEntry)) {
-            pokedex.add(pokedexEntry);
+        if(locations.contains(pokedexEntry.getRegistryName())) {
+            PokemonPluto.getLogger().atWarning().withStackTrace(StackSize.MEDIUM).log("Cannot register %s because an element with the same registry name was registered before", pokedexEntry.getRegistryName().toString());
         }
-    }
-
-    /**
-     * Register a Pokedex Entry from a json file
-     * @param file file path
-     */
-    public static void registerEntryFromJson(String file) {
-        InputStream input = PokedexEntry.class.getClassLoader().getResourceAsStream(file);
-        JsonReader reader = new JsonReader(new InputStreamReader(input));
-        PokedexEntry entry = JsonUtil.gson.fromJson(reader, PokedexEntry.class);
-        registerEntry(entry);
-    }
-
-    /**
-     * Create the pokedex from JSON
-     * @param file json file
-     */
-    public static void createPokedexFromJson(String file) {
-        InputStream input = PokedexEntry.class.getClassLoader().getResourceAsStream(file);
-        JsonReader reader = new JsonReader(new InputStreamReader(input));
-        PokedexEntry[] entries = JsonUtil.gson.fromJson(reader, PokedexEntry[].class);
-        for(PokedexEntry entry: entries) {
-            registerEntry(entry);
+        else {
+            locations.add(pokedexEntry.getRegistryName());
+            internalPokedex.add(pokedexEntry);
         }
     }
 }

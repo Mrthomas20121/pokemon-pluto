@@ -2,19 +2,19 @@ package mrthomas20121.pokemon_pluto.api.handler;
 
 import com.google.common.flogger.StackSize;
 import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
+import it.unimi.dsi.fastutil.objects.ObjectLinkedOpenHashSet;
 import mrthomas20121.pokemon_pluto.PokemonPluto;
 import mrthomas20121.pokemon_pluto.api.json.JsonSerializer;
 import mrthomas20121.pokemon_pluto.api.json.JsonUtil;
 import mrthomas20121.pokemon_pluto.api.helper.GameLocation;
 
-import java.util.LinkedList;
-
 public class AbstractHandler<T extends IHandlerEntry> {
     private final GameLocation name;
-    protected final LinkedList<T> internalList = new LinkedList<>();
-    protected final LinkedList<GameLocation> locations = new LinkedList<>();
+    protected final ObjectLinkedOpenHashSet<T> internalHashSet = new ObjectLinkedOpenHashSet<>();
+    protected final ObjectLinkedOpenHashSet<String> locations = new ObjectLinkedOpenHashSet<>();
     private final JsonSerializer<T> serializer;
+
+    private T defaultEntry;
 
     public AbstractHandler(GameLocation location, JsonSerializer<T> serializer) {
         this.name = location;
@@ -29,27 +29,35 @@ public class AbstractHandler<T extends IHandlerEntry> {
         this(new GameLocation(name), serializer);
     }
 
+    public void setDefaultEntry(T defaultEntry) {
+        this.defaultEntry = defaultEntry;
+    }
+
+    public T getDefaultEntry() {
+        return defaultEntry;
+    }
+
     public JsonSerializer<T> getJsonSerializer() {
         return serializer;
     }
 
     public boolean register(T element) {
-        if(locations.contains(element.getRegistryName())) {
-            PokemonPluto.getLogger().atWarning().withStackTrace(StackSize.LARGE).log("Cannot register %s because an element with the same registry name was registered before", element.getRegistryName().toString());
+        if(locations.contains(element.getRegistryName().toString())) {
+            PokemonPluto.getLogger().atWarning().withStackTrace(StackSize.LARGE).log("Cannot register %s %s because an element with the same registry name was registered before", this.getClassName(element),element.getRegistryName().toString());
             return false;
         }
 
         // add the registry name to the registry name list.
-        this.locations.add(element.getRegistryName());
-        return this.internalList.add(element);
+        this.locations.add(element.getRegistryName().toString());
+        return this.internalHashSet.add(element);
     }
 
     public int size() {
-        return this.internalList.size();
+        return this.internalHashSet.size();
     }
 
     public boolean isEmpty() {
-        return this.internalList.isEmpty();
+        return this.internalHashSet.isEmpty();
     }
 
     public void registerFromJsonList(String file) {
@@ -58,8 +66,13 @@ public class AbstractHandler<T extends IHandlerEntry> {
     }
 
     public void registerFromJson(String file) {
-        JsonObject jsonObject = JsonUtil.getResourceFromJson(file, JsonObject.class);
-        T object = this.serializer.deserialize(jsonObject);
+        T object = JsonUtil.fromJson(this.serializer, file);
+        PokemonPluto.getLogger().atInfo().log(object.getRegistryName().toString());
+        register(object);
+    }
+
+    public void registerFromJson(String file, JsonSerializer<T> serializer) {
+        T object = JsonUtil.fromJson(serializer, file);
         register(object);
     }
 
@@ -69,18 +82,22 @@ public class AbstractHandler<T extends IHandlerEntry> {
      * @return The Element with said name.
      */
     public T getElementByName(GameLocation name) {
-        return this.internalList.stream().filter(t -> t.getRegistryName().equals(name)).findFirst().orElse(null);
+        return this.internalHashSet.stream().filter(t -> t.getRegistryName().equals(name)).findFirst().orElse(defaultEntry);
     }
 
     public T getElement(int index) {
-        return this.internalList.get(index);
+        return this.internalHashSet.get(index);
     }
 
-    public LinkedList<T> getList() {
-        return internalList;
+    public ObjectLinkedOpenHashSet<T> getInternalHashSet() {
+        return internalHashSet;
     }
 
     public GameLocation getRegistryName() {
         return this.name;
+    }
+
+    private String getClassName(T element) {
+        return element.getClass().getSimpleName();
     }
 }

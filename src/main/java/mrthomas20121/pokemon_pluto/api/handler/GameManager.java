@@ -2,7 +2,6 @@ package mrthomas20121.pokemon_pluto.api.handler;
 
 import mrthomas20121.pokemon_pluto.api.item.ItemRareCandy;
 import mrthomas20121.pokemon_pluto.api.pokemon.Pokemon;
-import mrthomas20121.pokemon_pluto.api.pokemon.PokemonData;
 import mrthomas20121.pokemon_pluto.api.pokemon.PokemonSerializer;
 
 public class GameManager {
@@ -17,8 +16,8 @@ public class GameManager {
 
     static {
         // register Rare Candy
-        itemHandler.register(new ItemRareCandy("pokemon_pluto"));
+        itemHandler.register(new ItemRareCandy("pluto"));
 
-        pokemonTypeHandler.registerFromJsonList("types.json");
+        //pokemonTypeHandler.registerFromJsonList("types.json");
     }
 }

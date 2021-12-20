@@ -1,6 +1,5 @@
 package mrthomas20121.pokemon_pluto.api.pokemon;
 
-
 public enum Effectiveness {
 
     DOUBLE_EFFECTIVE(4),

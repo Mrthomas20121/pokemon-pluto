@@ -11,7 +11,7 @@ public class MoveHandler extends AbstractHandler<Move> {
     }
 
     public List<Move> getObtainableMove() {
-        return this.internalList.stream().filter(move -> !(move instanceof NonObtainableMove)).toList();
+        return this.internalHashSet.stream().filter(move -> !(move instanceof NonObtainableMove)).toList();
     }
 
     @Override
@@ -23,22 +23,22 @@ public class MoveHandler extends AbstractHandler<Move> {
     }
 
     public List<Move> getCSMoves() {
-        return this.internalList.stream().filter(move -> move instanceof CSMove).toList();
+        return this.internalHashSet.stream().filter(move -> move instanceof CSMove).toList();
     }
 
     public List<Move> getHMMoves() {
-        return this.internalList.stream().filter(move -> move instanceof HMMove).toList();
+        return this.internalHashSet.stream().filter(move -> move instanceof HMMove).toList();
     }
 
     public List<Move> getPhysicalMoves() {
-        return this.internalList.stream().filter(move -> move.getCategory().equals(Category.PHYSICAL)).toList();
+        return this.internalHashSet.stream().filter(move -> move.getCategory().equals(Category.PHYSICAL)).toList();
     }
 
     public List<Move> getSpecialMoves() {
-        return this.internalList.stream().filter(move -> move.getCategory().equals(Category.SPECIAL)).toList();
+        return this.internalHashSet.stream().filter(move -> move.getCategory().equals(Category.SPECIAL)).toList();
     }
 
     public List<Move> getStatusMoves() {
-        return this.internalList.stream().filter(move -> move.getCategory().equals(Category.STATUS)).toList();
+        return this.internalHashSet.stream().filter(move -> move.getCategory().equals(Category.STATUS)).toList();
     }
 }

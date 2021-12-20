@@ -1,9 +1,8 @@
 package mrthomas20121.pokemon_pluto;
 
 import com.google.common.flogger.FluentLogger;
-import com.google.gson.JsonObject;
-import mrthomas20121.pokemon_pluto.api.json.JsonUtil;
-import mrthomas20121.pokemon_pluto.api.pokemon.type.PokemonTypeSerializer;
+import mrthomas20121.pokemon_pluto.api.handler.GameManager;
+import mrthomas20121.pokemon_pluto.api.helper.GameLocation;
 
 public class PokemonPluto {
 
@@ -14,8 +13,7 @@ public class PokemonPluto {
     }
 
     public static void main(String[] args) {
-        PokemonTypeSerializer serializer = new PokemonTypeSerializer();
-        JsonObject object = JsonUtil.getResourceFromJson("pokemon/test.json", JsonObject.class);
-        logger.atInfo().log(serializer.deserialize(object).getRegistryName().toString());
+        GameManager.pokemonTypeHandler.registerFromJson("assets/pokemon/test.json");
+        //getLogger().atInfo().log(GameManager.pokemonTypeHandler.getElementByName(new GameLocation("pluto:psy")).getRegistryName().toString());
     }
 }

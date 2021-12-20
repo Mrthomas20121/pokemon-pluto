@@ -4,37 +4,27 @@ import mrthomas20121.pokemon_pluto.api.helper.GameLocation;
 import mrthomas20121.pokemon_pluto.api.helper.GameTranslation;
 import mrthomas20121.pokemon_pluto.api.handler.IHandlerEntry;
 
-public class PokedexEntry implements IPokedex, IHandlerEntry {
+public abstract class PokedexEntry implements IHandlerEntry, IPokedexEntry {
 
     private final GameLocation name;
-    private final String description;
+    protected final String text;
 
-    public PokedexEntry(final GameLocation name, final String description) {
+    public PokedexEntry(final GameLocation name, final String text) {
         this.name = name;
-        this.description = description;
+        this.text = text;
     }
 
-    public PokedexEntry(final String name, final String description) {
-        this(new GameLocation("pokemon_pluto", name), description);
-    }
-
-    @Override
-    public GameLocation getName() {
-        return name;
+    public PokedexEntry(final String name, final String text) {
+        this(new GameLocation("pluto", name), text);
     }
 
     @Override
     public GameLocation getRegistryName() {
-        return this.getName();
+        return this.name;
     }
 
     @Override
     public GameTranslation getTranslationKey() {
-        return new GameTranslation(String.format("pokedex.%s.description", this.name.getPath()));
-    }
-
-    @Override
-    public String getDescription() {
-        return description;
+        return new GameTranslation(this.getText());
     }
 }
